@@ -18,7 +18,7 @@ def parse_command():
                       dest='num', help='limit the num of results')
     parser.add_option('-s', '--search', action='store',
                       type='string', dest='search_for',
-                      help='search for string')
+                      help='search \'item\', quotation marks are required')
 
     return parser.parse_args()
 
