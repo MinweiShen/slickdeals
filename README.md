@@ -8,7 +8,7 @@ A command line tool for [Slickdeals](http://slickdeals.net).
 2. beautifulsoup
 
 ## Usage
-python sclickdeals.py [option]
+python slickdeals.py [option]
 
 ### Options
 1. ``-f --free``: show items free or ship free on frontpage
@@ -19,7 +19,7 @@ python sclickdeals.py [option]
 
 ### Example
 1. ``python slickdeals.py -F -n 10`` : show first 10 free items on frontpage
-2. ``python sclickdeals.py -s 'amazon xbox'`: search amazon xbox deals
+2. ``python slickdeals.py -s 'amazon xbox'`: search amazon xbox deals
 3. ``python slickdeals.py -s 'amazon' -f -n 10``: search free amazon deals, show 10 results
 
 
